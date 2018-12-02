@@ -28,7 +28,7 @@ client.on('message',async message => {
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag} !`);
-        client.user.setActivity("NXT SERVER |bc",{type: 'playing'});
+        client.user.setActivity("NXT SERVER | bc 2",{type: 'playing'});
 
 });
 
