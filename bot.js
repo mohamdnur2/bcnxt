@@ -27,9 +27,14 @@ client.on('message',async message => {
 });
 
 client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag} !`);
-        client.user.setActivity("NXT SERVER | bc 2",{type: 'playing'});
-
+   console.log(`----------------`);
+      console.log(`Desert Bot- Script By : puu`);
+        console.log(`----------------`);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : puuy `);
+    console.log(`----------------`);
+  console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame(`NXT community | bc 2`,"http://twitch.tv/S-F")
+client.user.setStatus("dnd")
 });
 
 
